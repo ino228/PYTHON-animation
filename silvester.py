@@ -85,5 +85,4 @@ while not done:
     pygame.display.flip()
     print(clock.get_rawtime())
     clock.tick_busy_loop(30)
-
-
+pygame.quit()
